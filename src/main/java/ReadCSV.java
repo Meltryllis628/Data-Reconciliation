@@ -8,6 +8,12 @@ public class ReadCSV {
      * @return
      */
     public static ArrayList<String> readCsvByBufferedReader(String filePath) {
+        try {
+            File csv = new File(filePath);
+        } catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
         File csv = new File(filePath);
         csv.setReadable(true);
         csv.setWritable(true);
@@ -18,17 +24,20 @@ public class ReadCSV {
             br = new BufferedReader(isr);
         } catch (Exception e) {
             e.printStackTrace();
+            return null;
         }
         String line = "";
         ArrayList<String> records = new ArrayList<>();
         try {
             while ((line = br.readLine()) != null) {
-                System.out.println(line);
-                records.add(line);
+                String linestr = line.toString();
+                //System.out.println(linestr);
+                records.add(linestr);
             }
-            System.out.println("csv lines:" + records.size());
+            //System.out.println("csv lines:" + records.size());
         } catch (IOException e) {
             e.printStackTrace();
+            return null;
         }
         return records;
     }

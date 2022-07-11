@@ -14,3 +14,8 @@ currency, account type (e.g., savings/current) and available balance. Compare av
 against a unique combination of customer id, customer account number, account type and
 currency. Generate a CSV file with records from both the files and corresponding to the
 mismatched amount (i.e., balance) for the unique combination.
+
+# Task 1
+[User Diagram](https://miro.com/app/board/uXjVO8LhsSg=/)
+
+# Task 2

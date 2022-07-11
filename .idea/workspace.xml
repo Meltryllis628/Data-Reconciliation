@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0967fe06-34eb-4d47-9ba9-966d9158aa2a" name="Changes" comment="Creating">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReadCSV.java" afterDir="false" />
+    <list default="true" id="0967fe06-34eb-4d47-9ba9-966d9158aa2a" name="Changes" comment="Feat:read CSV by Buffer Reader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadCSV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,19 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReadCSVTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Term5\Data-Reconciliation\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Compare">
+    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Compare" />
+      <module name="Data-Reconciliation.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileTest" />
       <module name="Data-Reconciliation.main" />
@@ -71,16 +82,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadCSVTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadCSVTest" />
-      <module name="Data-Reconciliation.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadCSVTest" />
+        <item itemvalue="Application.Compare" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657540258738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat:read CSV by Buffer Reader">
+      <created>1657541866371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657541866371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating" />
+    <MESSAGE value="Feat:read CSV by Buffer Reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat:read CSV by Buffer Reader" />
   </component>
 </project>
