@@ -5,7 +5,7 @@ public class ReadCSV {
     /**
      * BufferedReader
      * @param filePath
-     * @return
+     * @return records
      */
     public static ArrayList<String> readCsvByBufferedReader(String filePath) {
         try {
