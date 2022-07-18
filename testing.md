@@ -1,5 +1,5 @@
-Equivalence Class
----
+# Equivalence Class
+
 | Input                                     | Valid Equivalence Class                                                                                                                         | Invalid Equivalence Class                                                             |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | Number of files                           | 2 files                                                                                                                                         | 1 file or more than 3 files                                                           |
@@ -7,8 +7,9 @@ Equivalence Class
 | Column Numbers                            | Both files are 5                                                                                                                                | At least one of the files is not 5                                                    |
 | Row Numbers                               | file 1 == file 2                                                                                                                                | file 1 != file 2                                                                      |
 | Duplicated Rows                           | No rows duplicate in both files                                                                                                                 | At least one file has duplicated rows                                                 |
-Test Cases
----
+
+# Test Cases
+
 | Test Case Num | Test Case                                                                                                         | Middle or Boundary | Expected Outcome(Rejected or Accepted) |
 |---------------|-------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------------------|
 | 1             | 2 exactly same .csv files including 5 columns(No duplicate)                                                       | Boundary           | Accepted                               |
