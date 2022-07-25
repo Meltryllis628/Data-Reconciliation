@@ -1,4 +1,5 @@
 import java.io.*;
+import java.net.URLConnection;
 import java.util.ArrayList;
 
 public class ReadCSV {
@@ -11,7 +12,12 @@ public class ReadCSV {
         try {
             File csv = new File(filePath);
         } catch (Exception e){
-            e.printStackTrace();
+            //e.printStackTrace();
+            return null;
+        }
+        String[] strArray = filePath.split("\\.");
+        int suffixIndex = strArray.length -1;
+        if (suffixIndex<=0||!strArray[suffixIndex].equals("csv")){
             return null;
         }
         File csv = new File(filePath);
@@ -32,6 +38,10 @@ public class ReadCSV {
             while ((line = br.readLine()) != null) {
                 String linestr = line.toString();
                 //System.out.println(linestr);
+                String[] num = linestr.split(",");
+                if(num.length != 5){
+                    return null;
+                }
                 records.add(linestr);
             }
             //System.out.println("csv lines:" + records.size());
