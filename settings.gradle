@@ -1,2 +1,5 @@
 rootProject.name = 'Data-Reconciliation'
+include 'src:main:generation'
+findProject(':src:main:generation')?.name = 'generation'
+include 'generate'
 
