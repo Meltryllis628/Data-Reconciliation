@@ -16,10 +16,10 @@ public class generate {
         return idS+NoS+cur+type+bal;
     }
     private static String generateRandomChr(int num){
-        boolean capital = r.nextBoolean();
         String result = "";
         for(int i = 0;i<num;i++){
             Character c;
+            boolean capital = r.nextBoolean();
             int number = r.nextInt(25);
             if(capital){
                 c = (char)(number+65);
