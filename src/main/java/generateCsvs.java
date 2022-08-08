@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class generateCsvs {
-    public void generate2csvs(int scale,int correctRate) throws IOException {
+    public static void generate2csvs(int scale,int correctRate) throws IOException {
         Random r = new Random();
         ArrayList<String> csv1 = new ArrayList<>();
         csv1.add(generate.HEADER);

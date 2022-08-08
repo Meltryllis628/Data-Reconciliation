@@ -13,14 +13,14 @@ public class generate {
         String cur = "\""+generateRandomChr(num2)+"\",";
         String type = "\""+generateRandomChr(num2)+"\",";
         String bal = "\""+ballence.toString()+"\"";
-        return NoS+cur+type+bal;
+        return idS+NoS+cur+type+bal;
     }
     private static String generateRandomChr(int num){
-        int number = r.nextInt(25);
         boolean capital = r.nextBoolean();
         String result = "";
         for(int i = 0;i<num;i++){
             Character c;
+            int number = r.nextInt(25);
             if(capital){
                 c = (char)(number+65);
             }else{

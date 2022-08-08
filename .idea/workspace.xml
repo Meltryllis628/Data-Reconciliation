@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0967fe06-34eb-4d47-9ba9-966d9158aa2a" name="Changes" comment="Feat:Fizzer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generateCsvs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generateCsvs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generateCsvs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompareTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +81,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CompareTest">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Data-Reconciliation.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.CompareTest.test_generating">
     <configuration name="CompareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,6 +119,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;CompareTest.test_file_read&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CompareTest.test_generating" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CompareTest.test_generating&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,7 +198,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.main" />
+      <item itemvalue="Gradle.CompareTest.test_generating" />
       <item itemvalue="Gradle.CompareTest" />
       <item itemvalue="Gradle.CompareTest.test_file_read" />
       <item itemvalue="Gradle.CompareTest.test_repeated" />
@@ -188,11 +206,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CompareTest.test_generating" />
         <item itemvalue="Gradle.CompareTest" />
         <item itemvalue="Gradle.CompareTest.test_repeated" />
         <item itemvalue="Gradle.CompareTest.test_file_read" />
         <item itemvalue="Gradle.test.test_file_type" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659973592373</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Feat:Fizzer">
+      <created>1659974140010</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659974140010</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
