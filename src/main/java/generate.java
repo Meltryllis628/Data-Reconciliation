@@ -2,7 +2,7 @@
 import java.util.Random;
 
 public class generate {
-    public static final String HEADER = "\"Customer ID#\",\"Account No.\",\"Currency\",\"Type\",\"Balance\"\n";
+    public static final String HEADER = "\"Customer ID#\",\"Account No.\",\"Currency\",\"Type\",\"Balance\"";
     static Random r = new Random();
     public static String generateLine(Integer id){
         String idS = "\"id" + id.toString() +"\",";
@@ -12,7 +12,7 @@ public class generate {
         String NoS = "\""+generateAccNo(num)+"\",";
         String cur = "\""+generateRandomChr(num2)+"\",";
         String type = "\""+generateRandomChr(num2)+"\",";
-        String bal = "\""+ballence.toString()+"\"\n";
+        String bal = "\""+ballence.toString()+"\"";
         return NoS+cur+type+bal;
     }
     private static String generateRandomChr(int num){
